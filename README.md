@@ -27,7 +27,7 @@ In this homework assignment, we will be accomplishing three main tasks:
 
 First, read and clean several CSV files for analysis. The CSV files include whale portfolio returns, algorithmic trading portfolio returns, and S&P 500 historical prices. Use the [Whale Analysis Starter Code](Starter_Code/whale_analysis.ipynb) to complete the following steps:
 
-1. Use Pandas to read in each of the [CSV files](Starter_Code/Resources) as a DataFrame. Be sure to convert the dates to a `DateTimeIndex`.
+1. Use Pandas to read in each of the [CSV files](Starter_Code/Resources) as a DataFrame. Making sure to convert the dates to a `DateTimeIndex`.
 
 2. Detect and remove null values.
 
@@ -53,6 +53,8 @@ Analyze the data to see if any of the portfolios outperform the stock market (i.
 
 2. Calculate the standard deviation for each portfolio. Which portfolios are riskier than the S&P 500?
 
+#### Tiger Global Management LLC and Berkshire Hathaway, Inc. have greater risk and upside potential than S&P 500. They also have the greater returns distribution from the average according to the box plot from above.
+
 3. Calculate the annualized standard deviation (252 trading days).
 
 #### Rolling Statistics
@@ -75,9 +77,9 @@ Investment managers and their institutional investors look at the return-to-risk
 
 ### Create Custom Portfolio
 
-Harold is ecstatic that you were able to help him prove that the algorithmic trading portfolios are doing so well compared to the market and whales' portfolios. However, now you are wondering whether you can choose your own portfolio that performs just as well as the algorithmic portfolios. Investigate by doing the following:
+Harold is ecstatic that I was able to help him prove that the algorithmic trading portfolios are doing so well compared to the market and whales' portfolios. However, we were wondering whether we could choose our own portfolio that performs just as well as the algorithmic portfolios. We proceeded to investigate by doing the following:
 
-1. Visit [Google Sheets](https://docs.google.com/spreadsheets/) and use the in-built Google Finance function to choose 3-5 stocks for your own portfolio.
+1. Visit [Google Sheets](https://docs.google.com/spreadsheets/) and use the in-built Google Finance function to choose 3-5 stocks for our own portfolio.
 
 2. Download the data as CSV files and calculate the portfolio returns.
 
