@@ -1,5 +1,4 @@
-# Unit-4-Homework-Assignment-A-Whale-Off-the-Port-folio-
-Quantitative analysis to determine which portfolio performs the best across many areas: volatility, returns, risk, and Sharpe ratios.
+# Unit 4 Homework Assignment: A Whale Off the Port(folio)
 
 ![Portfolio Analysis](Images/portfolio-analysis.png)
 
@@ -7,11 +6,11 @@ Quantitative analysis to determine which portfolio performs the best across many
 
 The investment division of Harold's company has been investing in algorithmic trading strategies. Some of the investment managers love them, some hate them, but they all think their way is best.
 
-We just learned these quantitative analysis techniques with Python and Pandas, so Harold has come to us with a challenge—to help him determine which portfolio is performing the best across many areas: volatility, returns, risk, and Sharpe ratios.
+You just learned these quantitative analysis techniques with Python and Pandas, so Harold has come to you with a challenge—to help him determine which portfolio is performing the best across many areas: volatility, returns, risk, and Sharpe ratios.
 
-WE will need to create a tool (an analysis notebook) that analyzes and visualizes the major metrics of the portfolios across all of these areas, and determine which portfolio outperformed the others. We will be given the historical daily returns of several portfolios: some from the firm's algorithmic portfolios, some that represent the portfolios of famous "whale" investors like Warren Buffett, and some from the big hedge and mutual funds. We will then use this analysis to create a custom portfolio of stocks and compare its performance to that of the other portfolios, as well as the larger market (S&P 500).
+You will need to create a tool (an analysis notebook) that analyzes and visualizes the major metrics of the portfolios across all of these areas, and determine which portfolio outperformed the others. You will be given the historical daily returns of several portfolios: some from the firm's algorithmic portfolios, some that represent the portfolios of famous "whale" investors like Warren Buffett, and some from the big hedge and mutual funds. You will then use this analysis to create a custom portfolio of stocks and compare its performance to that of the other portfolios, as well as the larger market (S&P 500).
 
-In this homework assignment, we will be accomplishing three main tasks:
+In this homework assignment, you will be accomplishing three main tasks:
 
 1. [Read in and Wrangle Returns Data](#Prepare-the-Data)
 2. [Determine Success of Each Portfolio](#Conduct-Quantitative-Analysis)
@@ -27,7 +26,7 @@ In this homework assignment, we will be accomplishing three main tasks:
 
 First, read and clean several CSV files for analysis. The CSV files include whale portfolio returns, algorithmic trading portfolio returns, and S&P 500 historical prices. Use the [Whale Analysis Starter Code](Starter_Code/whale_analysis.ipynb) to complete the following steps:
 
-1. Use Pandas to read in each of the [CSV files](Starter_Code/Resources) as a DataFrame. Making sure to convert the dates to a `DateTimeIndex`.
+1. Use Pandas to read in each of the [CSV files](Starter_Code/Resources) as a DataFrame. Be sure to convert the dates to a `DateTimeIndex`.
 
 2. Detect and remove null values.
 
@@ -53,8 +52,6 @@ Analyze the data to see if any of the portfolios outperform the stock market (i.
 
 2. Calculate the standard deviation for each portfolio. Which portfolios are riskier than the S&P 500?
 
-#### Tiger Global Management LLC and Berkshire Hathaway, Inc. have greater risk and upside potential than S&P 500. They also have the greater returns distribution from the average according to the box plot from above.
-
 3. Calculate the annualized standard deviation (252 trading days).
 
 #### Rolling Statistics
@@ -77,9 +74,9 @@ Investment managers and their institutional investors look at the return-to-risk
 
 ### Create Custom Portfolio
 
-Harold is ecstatic that I was able to help him prove that the algorithmic trading portfolios are doing so well compared to the market and whales' portfolios. However, we were wondering whether we could choose our own portfolio that performs just as well as the algorithmic portfolios. We proceeded to investigate by doing the following:
+Harold is ecstatic that you were able to help him prove that the algorithmic trading portfolios are doing so well compared to the market and whales' portfolios. However, now you are wondering whether you can choose your own portfolio that performs just as well as the algorithmic portfolios. Investigate by doing the following:
 
-1. Visit [Google Sheets](https://docs.google.com/spreadsheets/) and use the in-built Google Finance function to choose 3-5 stocks for our own portfolio.
+1. Visit [Google Sheets](https://docs.google.com/spreadsheets/) and use the in-built Google Finance function to choose 3-5 stocks for your own portfolio.
 
 2. Download the data as CSV files and calculate the portfolio returns.
 
@@ -117,11 +114,3 @@ Harold is ecstatic that I was able to help him prove that the algorithmic tradin
 * Be sure to use `head()` or `tail()` when you want to look at your data but don't want to print to a large DataFrame.
 
 ---
-
-## Submission
-
-1. Create a Jupyter Notebook containing your data preparation, analysis, and visualizations. Put your analysis and answers to the assignment questions in raw text (markdown) cells in the report.
-
-2. Submit your notebook to a new GitHub repository.
-
-3. Add the URL of your GitHub repository to your Assignment when submitting via Bootcamp Spot.
